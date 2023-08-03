@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1363</width>
+    <height>883</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>233</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>YAYINEVİ</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbkategor">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Roman</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dergi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hikaye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Masal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ansiklopedi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Anı Kitapları</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gezi Kitapları</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şiir Kitapları</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Biyografi Kitapları</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dini Kitapları</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgi Kitapları</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>300</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İçerik Türü</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lneuruncklm">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tbllistele">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>931</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>10</y>
+      <width>421</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Kitaba Göre Listele</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="cmbkatgorilstl">
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Roman Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Anı Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bilgi Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dini Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Şiir Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Biyografi Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hikaye Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Masal Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ansiklopedi Kitapları</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dergi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gezi Kitapları</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnktgrlistele">
+       <property name="text">
+        <string>Kategoriye Göre listele</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>320</y>
+      <width>611</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btnekle">
+       <property name="text">
+        <string>Kitap Ekle </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btngncll">
+       <property name="text">
+        <string>Kitap Güncelle</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnsil">
+       <property name="text">
+        <string>Kitap Sil</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnlstl">
+       <property name="text">
+        <string>Kitap Listele</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>610</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RAPOR YAZDIR</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>921</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>7</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>0</y>
+      <width>321</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>ISBN NO</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>KİTAP ADI</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>BİRİM SÜRE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>STOK MİKTAR</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>KULLANICI NO</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="4" column="0">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLineEdit" name="lnebrmfyt"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLineEdit" name="kullanici"/>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLineEdit" name="lneurunkodu"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLineEdit" name="lneurunad"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1363</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
